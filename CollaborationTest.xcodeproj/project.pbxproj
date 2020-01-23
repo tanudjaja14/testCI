@@ -15,6 +15,9 @@
 		4797067723DA3483002EFD20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4797067523DA3483002EFD20 /* LaunchScreen.storyboard */; };
 		4797068223DA3484002EFD20 /* CollaborationTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797068123DA3484002EFD20 /* CollaborationTestTests.swift */; };
 		4797068D23DA3484002EFD20 /* CollaborationTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797068C23DA3484002EFD20 /* CollaborationTestUITests.swift */; };
+		4797069B23DA34FE002EFD20 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797069A23DA34FE002EFD20 /* DataManager.swift */; };
+		4797069C23DA34FE002EFD20 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797069A23DA34FE002EFD20 /* DataManager.swift */; };
+		4797069D23DA34FE002EFD20 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797069A23DA34FE002EFD20 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		4797068823DA3484002EFD20 /* CollaborationTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollaborationTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4797068C23DA3484002EFD20 /* CollaborationTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollaborationTestUITests.swift; sourceTree = "<group>"; };
 		4797068E23DA3484002EFD20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4797069A23DA34FE002EFD20 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		4797066923DA3483002EFD20 /* CollaborationTest */ = {
 			isa = PBXGroup;
 			children = (
+				4797069A23DA34FE002EFD20 /* DataManager.swift */,
 				4797066A23DA3483002EFD20 /* AppDelegate.swift */,
 				4797066C23DA3483002EFD20 /* SceneDelegate.swift */,
 				4797066E23DA3483002EFD20 /* ViewController.swift */,
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4797066F23DA3483002EFD20 /* ViewController.swift in Sources */,
+				4797069B23DA34FE002EFD20 /* DataManager.swift in Sources */,
 				4797066B23DA3483002EFD20 /* AppDelegate.swift in Sources */,
 				4797066D23DA3483002EFD20 /* SceneDelegate.swift in Sources */,
 			);
@@ -270,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4797068223DA3484002EFD20 /* CollaborationTestTests.swift in Sources */,
+				4797069C23DA34FE002EFD20 /* DataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4797068D23DA3484002EFD20 /* CollaborationTestUITests.swift in Sources */,
+				4797069D23DA34FE002EFD20 /* DataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
