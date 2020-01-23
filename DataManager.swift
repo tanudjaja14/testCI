@@ -13,8 +13,5 @@ class DataManager: NSObject {
     
     var keychain = Keychain(service: "com.appsdeveloper.SwiftMsgCITest")
     
-    
-    
-    
 
 }
