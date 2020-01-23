@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import KeychainAccess
 
 class ViewController: UIViewController {
 
+    var keychain = Keychain(service: "com.appsdeveloper.SwiftMsgCITest")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
