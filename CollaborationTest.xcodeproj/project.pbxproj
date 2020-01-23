@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		4797069B23DA34FE002EFD20 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797069A23DA34FE002EFD20 /* DataManager.swift */; };
 		4797069C23DA34FE002EFD20 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797069A23DA34FE002EFD20 /* DataManager.swift */; };
 		4797069D23DA34FE002EFD20 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797069A23DA34FE002EFD20 /* DataManager.swift */; };
+		C53AA4B823DA3AA800B6A94E /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = C53AA4B723DA3AA800B6A94E /* KeychainAccess */; };
 		C53CAD1623DA3600003B1557 /* ViewDataSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53CAD1523DA3600003B1557 /* ViewDataSampleViewController.swift */; };
 		C53CAD1723DA3600003B1557 /* ViewDataSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53CAD1523DA3600003B1557 /* ViewDataSampleViewController.swift */; };
 		C53CAD1823DA3600003B1557 /* ViewDataSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53CAD1523DA3600003B1557 /* ViewDataSampleViewController.swift */; };
@@ -64,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C53AA4B823DA3AA800B6A94E /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +156,9 @@
 			dependencies = (
 			);
 			name = CollaborationTest;
+			packageProductDependencies = (
+				C53AA4B723DA3AA800B6A94E /* KeychainAccess */,
+			);
 			productName = CollaborationTest;
 			productReference = 4797066723DA3483002EFD20 /* CollaborationTest.app */;
 			productType = "com.apple.product-type.application";
@@ -226,6 +231,9 @@
 				Base,
 			);
 			mainGroup = 4797065E23DA3483002EFD20;
+			packageReferences = (
+				C53AA4B623DA3AA800B6A94E /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
 			productRefGroup = 4797066823DA3483002EFD20 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -606,6 +614,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C53AA4B623DA3AA800B6A94E /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C53AA4B723DA3AA800B6A94E /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C53AA4B623DA3AA800B6A94E /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4797065F23DA3483002EFD20 /* Project object */;
 }
