@@ -18,6 +18,9 @@
 		4797069B23DA34FE002EFD20 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797069A23DA34FE002EFD20 /* DataManager.swift */; };
 		4797069C23DA34FE002EFD20 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797069A23DA34FE002EFD20 /* DataManager.swift */; };
 		4797069D23DA34FE002EFD20 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797069A23DA34FE002EFD20 /* DataManager.swift */; };
+		C53CAD1623DA3600003B1557 /* ViewDataSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53CAD1523DA3600003B1557 /* ViewDataSampleViewController.swift */; };
+		C53CAD1723DA3600003B1557 /* ViewDataSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53CAD1523DA3600003B1557 /* ViewDataSampleViewController.swift */; };
+		C53CAD1823DA3600003B1557 /* ViewDataSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53CAD1523DA3600003B1557 /* ViewDataSampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,7 @@
 		4797068C23DA3484002EFD20 /* CollaborationTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollaborationTestUITests.swift; sourceTree = "<group>"; };
 		4797068E23DA3484002EFD20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4797069A23DA34FE002EFD20 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = SOURCE_ROOT; };
+		C53CAD1523DA3600003B1557 /* ViewDataSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDataSampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		4797065E23DA3483002EFD20 = {
 			isa = PBXGroup;
 			children = (
+				C53CAD1523DA3600003B1557 /* ViewDataSampleViewController.swift */,
 				4797066923DA3483002EFD20 /* CollaborationTest */,
 				4797068023DA3484002EFD20 /* CollaborationTestTests */,
 				4797068B23DA3484002EFD20 /* CollaborationTestUITests */,
@@ -266,6 +271,7 @@
 			files = (
 				4797066F23DA3483002EFD20 /* ViewController.swift in Sources */,
 				4797069B23DA34FE002EFD20 /* DataManager.swift in Sources */,
+				C53CAD1623DA3600003B1557 /* ViewDataSampleViewController.swift in Sources */,
 				4797066B23DA3483002EFD20 /* AppDelegate.swift in Sources */,
 				4797066D23DA3483002EFD20 /* SceneDelegate.swift in Sources */,
 			);
@@ -277,6 +283,7 @@
 			files = (
 				4797068223DA3484002EFD20 /* CollaborationTestTests.swift in Sources */,
 				4797069C23DA34FE002EFD20 /* DataManager.swift in Sources */,
+				C53CAD1723DA3600003B1557 /* ViewDataSampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +293,7 @@
 			files = (
 				4797068D23DA3484002EFD20 /* CollaborationTestUITests.swift in Sources */,
 				4797069D23DA34FE002EFD20 /* DataManager.swift in Sources */,
+				C53CAD1823DA3600003B1557 /* ViewDataSampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
